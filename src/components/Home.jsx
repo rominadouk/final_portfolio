@@ -1,3 +1,8 @@
+import './Home.css'
+
+
+
+
 const Homepage = () => {
     return (  
         <>

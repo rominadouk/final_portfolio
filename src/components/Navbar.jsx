@@ -1,4 +1,12 @@
 //Navigation Bar
+import { Link } from "react-scroll";
+import React, { useState } from 'react';
+import './Navbar.css'
+
+
+
+
+
 
 const Navbar = () => {
     return (  
@@ -12,5 +20,4 @@ const Navbar = () => {
         </nav>
     );
 }
- 
 export default Navbar;
