@@ -1,12 +1,13 @@
-import Homepage from "./components/Home";
-import './App.css';
+import Intro from "./components/Intro";
+import Projects from "./components/Projects";
 import Navbar from "./components/Navbar";
 
 const App = () => {
   return (
     <div>
         <Navbar sticky="top"/>
-        <Homepage />
+        <Intro/>
+        <Projects />
     </div>
   );
 }

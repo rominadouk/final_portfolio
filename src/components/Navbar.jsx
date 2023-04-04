@@ -12,10 +12,14 @@ const Navbar = () => {
     return (  
         <nav>
             <ul className="navUL">
-                <li>Home</li>
-                <li>Projects</li>
-                <li>About Me</li>
-                <li>Contact</li>
+                <li className="nav-item">
+                    <Link to="homepage" spy={true} smooth={true} offset={-100} duration={500}>Home</Link>
+                </li>
+                <li className="nav-item">
+                    <Link to="bio" spy={true} smooth={true} offset={-100} duration={500}>Bio</Link>
+                </li>
+                <li className="nav-item">About Me</li>
+                <li className="nav-item">Contact</li>
             </ul>
         </nav>
     );
