@@ -1,21 +1,15 @@
-/* Navigation Bar Styling */
 
-nav {
-    display: flex;
-    background-color: lightgray;
-    max-height: 50px;
-    padding: 5px;
+
+@media (min-width: 1250px) {
+  .navUL {
+    font-size: 20px;
+    margin-right: 100px;
   }
   
-  .navUL {
-    display: flex;
-    text-decoration: none;
-    list-style: none;
+  #brand{
+    font-size: 25px;
     padding: 0;
-    justify-content: space-around;
-    font-size: 20px;
-    margin: 10px auto;
+    margin-left: 100px;
   }
-  li {
-    padding: 0 80px;
+
   }
