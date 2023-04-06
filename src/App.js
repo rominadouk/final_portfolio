@@ -9,9 +9,9 @@ const App = () => {
   return (
     <div>
         <Navigation/>
-        <Intro id='intro'/>
-        <Projects id='projects'/>
-        <Bio id='bio'/>
+        <Intro />
+        <Projects />
+        <Bio />
         <ContactForm id='contactForm' />
         <Footer/>
     </div>
