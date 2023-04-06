@@ -9,10 +9,10 @@ const App = () => {
   return (
     <div>
         <Navigation/>
-        <Intro/>
+        <Intro id='intro'/>
         <Projects id='projects'/>
-        <Bio />
-        <ContactForm />
+        <Bio id='bio'/>
+        <ContactForm id='contactForm' />
         <Footer/>
     </div>
   );
