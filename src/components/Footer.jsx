@@ -8,14 +8,15 @@ const Footer = () => {
                     <Col>
                             <ul className='footerUL pt-3'>
                                 <li><strong>Get In Touch</strong></li>
-                                <li>Contact</li>
                                 <a href="https://github.com/rominadouk">
                                     <li>GitHub</li>
                                 </a>
                                 <a href="https://github.com/rominadouk">
                                     <li>LinkedIn</li>
                                 </a>
+                                <a href="https://drive.google.com/file/d/1duQgP7nxLy3a1uh-UruslnmBeOK9NNK8/view?usp=share_link">
                                 <li>Resume (PDF) </li>
+                                </a>
                             </ul>
                     </Col>
                 </Row>

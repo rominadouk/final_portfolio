@@ -17,3 +17,15 @@
 #main-nav li {
   cursor: pointer;
 }
+
+.nav-item:nth-child(1) {
+  margin-right: 100px;
+}
+
+.nav-item:nth-child(2) {
+  margin-right: 100px;
+}
+
+.nav-item:nth-child(3) {
+  margin-right: 100px;
+}

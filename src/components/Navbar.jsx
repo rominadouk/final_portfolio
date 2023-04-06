@@ -34,7 +34,7 @@ const Navigation = () => {
                         <Link className="nav-link" to="bio" spy={true} smooth={true} duration={90}>Bio</Link>
                         </li>
                         <li className="nav-item">
-                        <Link className="nav-link mr-5" to="contactForm" spy={true} smooth={true} duration={97}>Contact</Link>
+                        <Link className="nav-link" to="contactForm" spy={true} smooth={true} duration={97}>Contact</Link>
                         </li>
                     </ul>
                 </div>

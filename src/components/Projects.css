@@ -1,3 +1,13 @@
+.projectTitle {
+    font-size: 40px;
+}
+.projectType {
+    font-size: 25px;
+}
+
+.project_Description {
+    font-size: 20px;
+}
 .projectImg {
     background-color: grey;
     height: 250px;
@@ -20,6 +30,11 @@
 @media (max-width: 991px) {
     .projectImg {
         margin-top: 20px;
+        height: 200px;
+        width: 350px;
 
+    }
+    .project_Description {
+        margin-top: 20px;
     }
 }

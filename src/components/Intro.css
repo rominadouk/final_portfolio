@@ -1,10 +1,14 @@
+/* ROOT COLORS */
 
-/* @media (min-width: 1250px) {
-    .introduction_header {
-        margin-left: 100px;
-        margin-top: 20px;
-    }
-} */
+:root {
+    --background: #C9ADA7;
+}
+
+.mainPage {
+    background-color: var(--background);
+}
+
+
 #intro_container {
     margin-top: 100px;
 }
@@ -27,7 +31,7 @@
         border-right: .15em solid tan; /* The typwriter cursor */
         white-space: nowrap; /* Keeps the content on a single line */
         margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-        letter-spacing: .15em; /* Adjust as needed */
+        letter-spacing: .10em; /* Adjust as needed */
         animation: 
         typing 4s steps(40, end),
         blink-caret .75s step-end infinite;
