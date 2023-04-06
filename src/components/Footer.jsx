@@ -15,7 +15,7 @@ const Footer = () => {
                                 <a href="https://github.com/rominadouk">
                                     <li>LinkedIn</li>
                                 </a>
-                                <li>Resume</li>
+                                <li>Resume (PDF) </li>
                             </ul>
                     </Col>
                 </Row>
