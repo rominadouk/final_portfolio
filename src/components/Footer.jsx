@@ -6,7 +6,7 @@ const Footer = () => {
             <Container fluid className='footer'>
                 <Row>
                     <Col>
-                            <ul className='pt-3'>
+                            <ul className='footerUL pt-3'>
                                 <li><strong>Get In Touch</strong></li>
                                 <li>Contact</li>
                                 <a href="https://github.com/rominadouk">
