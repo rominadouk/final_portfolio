@@ -8,12 +8,12 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <div>
-        <Navigation sticky="top"/>
+        <Navigation/>
         <Intro/>
-        <Projects />
+        <Projects id='projects'/>
         <Bio />
         <ContactForm />
-        <Footer sticky="bottom"/>
+        <Footer/>
     </div>
   );
 }

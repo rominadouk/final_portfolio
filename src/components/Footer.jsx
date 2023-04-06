@@ -1,11 +1,13 @@
 import { Container, Row, Col } from 'react-bootstrap'
+import './Footer.css'
 
 const Footer = () => {
     return ( 
-            <Container>
+            <Container fluid className='footer'>
                 <Row>
-                    <Col className="footer">
-                            <ul>
+                    <Col>
+                            <ul className='pt-3'>
+                                <li><strong>Get In Touch</strong></li>
                                 <li>Contact</li>
                                 <a href="https://github.com/rominadouk">
                                     <li>GitHub</li>

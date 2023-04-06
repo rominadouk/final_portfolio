@@ -1,0 +1,18 @@
+.projectImg {
+    background-color: grey;
+    height: 250px;
+    width: 400px;
+}
+
+.projects {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.dashed_line {
+    margin-top: 100px;
+    height: 2px;
+    width: 200px;
+    border-top: dashed 6px;
+    color: lightgray;
+}
