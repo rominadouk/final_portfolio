@@ -1,13 +1,37 @@
 /* ROOT COLORS */
-
 :root {
     --background: #C9ADA7;
+    --secondary: #F2E9E4;
+    --lines: #9A8C98;
+}
+
+#main-nav {
+    background-color: var(--secondary);
+}
+.solid-line {
+   background-color: var(--lines);
 }
 
 .mainPage {
     background-color: var(--background);
 }
 
+.contactField {
+    background-color: var(--secondary);
+}
+
+#footerContainer {
+    background-color: var(--secondary);
+}
+
+.showProject {
+    background-color: var(--secondary) !important;
+}
+
+.headers {
+    color: #22223B;
+}
+/* Intro Styling */
 
 #intro_container {
     margin-top: 100px;
@@ -15,6 +39,7 @@
 
 .intro_text {
     font-size: 25px;
+    color: white;
 }
 .solid-line {
     margin: 0 auto;
@@ -46,7 +71,7 @@
       /* The typewriter cursor effect */
       @keyframes blink-caret {
         from, to { border-color: transparent }
-        50% { border-color: tan; }
+        50% { border-color: #F2E9E4; }
       }
 
 }

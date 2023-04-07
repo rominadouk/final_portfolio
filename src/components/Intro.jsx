@@ -8,8 +8,8 @@ const Intro = () => {
             <Container id='intro_container'>
                 <Row>
                     <Col>
-                        <h1 className='display-1'><strong>Hi! I'm Romina.</strong></h1>
-                        <p class="intro_text">A tenacious software engineer ready to build your next big idea into a digital experience.</p>
+                        <h1 className='display-1 headers'><strong>Hi! I'm Romina.</strong></h1>
+                        <p className="intro_text">A tenacious software engineer ready to build your next big idea into a digital experience.</p>
                     </Col>
                 </Row>
             </Container>

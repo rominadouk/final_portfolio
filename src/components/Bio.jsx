@@ -10,7 +10,7 @@ const Bio = () => {
             <Container className='bio-text'>
                 <Row>
                     <Col className='col-11'>
-                        <h2 className='display-3'> <strong>A software engineer based in Sacramento, California.</strong></h2>
+                        <h2 className='display-3 headers'> <strong>A <span className='softwareEngineerTxt'>software engineer</span> based in Sacramento, California.</strong></h2>
                     </Col>
                 </Row>
             </Container>
