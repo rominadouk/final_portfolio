@@ -1,12 +1,16 @@
 .projectTitle {
-    font-size: 40px;
+    /* font-size: 40px; */
+    font-size: xx-large;
+    font-weight: bold;
 }
 .projectType {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: large;
 }
 
 .project_Description {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: x-large;
 }
 .projectImg {
     background-color: grey;

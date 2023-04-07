@@ -2,12 +2,14 @@
 
 @media (min-width: 1250px) {
   .navUL {
-    font-size: 20px;
+    /* font-size: 20px; */
+    font-size: medium;
     margin-right: 100px;
   }
   
   #brand{
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: medium;
     padding: 0;
     margin-left: 100px;
   }

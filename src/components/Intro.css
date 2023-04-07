@@ -38,7 +38,8 @@
 }
 
 .intro_text {
-    font-size: 25px;
+    /* font-size: 25px; */
+    font-size: xx-large;
     color: white;
 }
 .solid-line {
