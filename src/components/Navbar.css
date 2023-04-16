@@ -16,8 +16,24 @@
 
   }
 
-#main-nav li {
+.navUL .nav-link,
+#brand {
+  font-size: large;
+}
+
+  #main-nav h3,
+  #main-nav li {
   cursor: pointer;
+}
+
+#main-nav a,
+#main-nav h3 {
+  color: var(--rosequartz);
+}
+
+#main-nav h3:hover,
+#main-nav a:hover {
+  color: var(--paledogwood);
 }
 
 .nav-item:nth-child(1) {

@@ -1,7 +1,22 @@
 .contactField {
-    max-width: 500px;
+    /* max-width: 500px; */
 }
 
 #contactForm {
     margin: 0 auto;
+}
+
+.submitContact {
+    background-color: var(--ultraviolet) !important;
+    color: var(--isabelline) !important;
+    font-size: large !important;
+    padding: 6px 12px;
+    border-radius: 0.375em;
+}
+.submitContact:hover {
+    background-color: var(--spacecadet) !important;
+    color: var(--paledogwood) !important;
+}
+.form-label {
+    color: var(--ultraviolet);
 }

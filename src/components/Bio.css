@@ -11,7 +11,15 @@ ul {
 .bio_description {
     /* font-size: 20px; */
     font-size: x-large;
+    color: var(--ultraviolet);
+
 }
 .softwareEngineerTxt {
     text-shadow: 2px 2px #F2E9E4;
+}
+
+.strengths ul li,
+.learning ul li {
+    color: var(--ultraviolet);
+    font-size: large;
 }

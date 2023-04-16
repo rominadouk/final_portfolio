@@ -24,9 +24,9 @@ const Navigation = () => {
                 </button>
                 <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul className="navbar-nav navUL">
-                        <li className="nav-item">
+                        {/* <li className="nav-item">
                         <Link className="nav-link" to="intro" spy={true} smooth={true} offset={-180} duration={0}>Home</Link>
-                        </li>
+                        </li> */}
                         <li className="nav-item">
                         <Link className="nav-link" to="projects" spy={true} smooth={true} offset={-90} duration={90}>Projects</Link>
                         </li>

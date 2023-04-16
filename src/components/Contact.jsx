@@ -11,7 +11,7 @@ const ContactForm = () => {
     e.preventDefault();
     window.location.reload()
 
-    emailjs.sendForm('service_izmawsk', 'template_77ohm4f', form.current, 'DsB4B5WMHISyn_J3C')
+    emailjs.sendForm('service_izmawsk', 'template_77ohm4f', form.current, process.env.REACT_APP_EMAILJS_API_KEY)
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -23,8 +23,8 @@ const ContactForm = () => {
             <div className='solid-line'></div>
             <Container className='my-5'>
                 <Row>
-                    <Col className="offset-sm-2 col-sm-8 offset-md-3 col-md-6">
-                        <h2 className="mb-3">Contact Me</h2>
+                    <Col className="offset-sm-2 col-sm-8 offset-md-4 col-md-4">
+                        <h2 className="mb-3 headers">Contact Me</h2>
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="mb-3">
                                 <label className="form-label" htmlFor="name">
@@ -44,7 +44,7 @@ const ContactForm = () => {
                                 </label>
                                 <textarea className="contactField form-control" id="message" name="message" required />
                             </div>
-                            <input type="submit" value="Send"/>
+                            <input type="submit" className="submitContact" value="Send"/>
                         </form>
                     </Col>
                 </Row>

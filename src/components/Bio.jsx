@@ -9,30 +9,30 @@ const Bio = () => {
             <div className='solid-line'></div>
             <Container className='bio-text'>
                 <Row>
-                    <Col className='col-11'>
+                    <Col className='offset-2 col-8'>
                         <h2 className='display-3 headers'> <strong>A <span className='softwareEngineerTxt'>software engineer</span> based in Sacramento, California.</strong></h2>
                     </Col>
                 </Row>
             </Container>
             <Container>
                 <Row>
-                    <Col className='col-sm-3 col-md-9 mt-4'>
-                        <p className='bio_description'>I'm a 24 year old fullstack software engineer aka a life-long student! I'm a dog mom to the cutest Pomeranian I enjoy computer games or family in my free time. I completed a few years of college but decided it was not the right time for me to attend. I continued as a server, working  in the restaurant/business industry for 5 years building up my people and business skill sets. Eventually I was able to create a comfortable position for myself to be able make a career change and I went all in. I took the first step in my tech journey and gained a solid foundation through General Assembly's Software Engineering Immersive Program.</p>
+                    <Col className='col-sm-3 col-md-8 offset-md-2 mt-4'>
+                        <p className='bio_description'>I'm a 24-year-old full-stack software engineer, AKA a lifelong student! I'm a dog mom to the cutest Pomeranian. I enjoy computer games and my family in my free time. I completed a few years of college but decided it was not the right time to attend. I continued as a server, working in the restaurant/business industry for five years, building my people and business skill sets. Eventually, I created a comfortable position to make a career change and went all in. I took the first step in my tech journey and gained a solid foundation through General Assembly's Software Engineering Immersive Program.</p>
                     </Col>
                 </Row>
             </Container>
-            <Container className='mt-2'>
+            <Container className='mt-4'>
                 <Row>
-                    <Col className="strengths">
-                        <h3>Strengths</h3>
+                    <Col className="strengths offset-2 col-4">
+                        <h3 className='headers'>Strengths</h3>
                         <ul>
                             <li>React JS</li>
                             <li>Express</li>
                             <li>Bootstrap</li>
                         </ul>
                     </Col>
-                    <Col className="learning">
-                        <h3>Learning</h3>
+                    <Col className="learning col-4">
+                        <h3 className='headers'>Learning</h3>
                         <ul>
                             <li>Integrating Open AI's API into webapps</li>
                             <li>TypeScript</li>
