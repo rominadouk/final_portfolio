@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 const Intro = () => {
     return ( 
         <>
-        <div id='intro'>
+        <div className='px-3' id='intro'>
             <Container id='intro_container'>
                 <Row>
                     <Col>

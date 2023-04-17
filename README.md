@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# Final Portfolio
+Live Link: https://final-portfolio.onrender.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is deployed on Render.
+This project was engineered by Romina Douk. 
+This project was designed by UX/UI designer Christian Jackson.
 
-## Available Scripts
+## Languages: 
+HTML, CSS, JavaScript
 
-In the project directory, you can run:
+## Technologies used: 
+React, React-Router-Dom, React-Smooth-Scroll, React-Bootstrap
 
-### `npm start`
+## Wireframes: 
+https://whimsical.com/portfolio-wireframes-4EFofSNGKxN49LDi7CS2qH
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## User Stories: 
+- As a User I would like to know who this portfolio belongs to.
+- As a user I would like to know what this person does.
+- As a user I would like to view any past projects from this person.
+- As a user I would like to easily contact this person.
+- As a user I would like to see this person’s resume. 
+- As a user I would like to follow this person on social media. 
+- As a user I would like to view an appealing web application.
 
-### `npm test`
+## Stretch Goals: 
+CSS Effects
+A working contact form located on the page
+Smooth Scrolling
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This app is a single-page application designed using React and react-smooth-scroll, this is my most up-to-date version of my portfolio created as a final project to mark the end of my journey at General Assembly. This app was created to showcase my skill set by displaying past projects. This portfolio also includes links to my LinkedIn, Github and links to three live projects. This app design was based on wireframes in collaboration with UX/UI designer Christian Jackson. After design was established I mapped out each React component, then began building each element. React-smooth-scroll and react-router-dom were implemented to give a smoother user experience. 
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Future Updates: 
+Design changes 
+Intro will take up a whole web-frame
+Fade-In effects will be implemented when the user first scrolls to the page 

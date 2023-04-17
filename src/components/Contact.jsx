@@ -21,9 +21,9 @@ const ContactForm = () => {
     return (  
         <div id="contactForm">
             <div className='solid-line'></div>
-            <Container className='my-5'>
+            <Container className='my-5 px-3'>
                 <Row>
-                    <Col className="offset-sm-2 col-sm-8 offset-md-4 col-md-4">
+                    <Col className="offset-md-3 col-md-6">
                         <h2 className="mb-3 headers">Contact Me</h2>
                         <form ref={form} onSubmit={sendEmail}>
                             <div className="mb-3">

@@ -8,12 +8,12 @@ import Footer from "./components/Footer";
 const App = () => {
   return (
     <div className="mainPage">
-        <Navigation/>
+        <Navigation />
         <Intro />
         <Projects />
         <Bio />
         <ContactForm id='contactForm' />
-        <Footer/>
+        <Footer />
     </div>
   );
 }

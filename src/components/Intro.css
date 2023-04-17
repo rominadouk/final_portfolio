@@ -9,7 +9,6 @@
     --paledogwood: #C9ADA7;
     --isabelline: #F2E9E4;
 }
-
 #main-nav,
 #footerContainer {
     background-color: var(--spacecadet);
@@ -21,15 +20,12 @@
     height: 2px;
     width: 200px;
 }
-
 .mainPage {
     background-color: var(--isabelline);
 }
-
 .contactField {
     background-color: var(--secondary);
 }
-
 .showProject {
     background-color: var(--ultraviolet) !important;
     color: var(--isabelline) !important;
@@ -39,20 +35,20 @@
     background-color: var(--spacecadet) !important;
     color: var(--paledogwood) !important;
 }
-
 .headers {
     color: var(--ultraviolet);
 }
 /* Intro Styling */
-
 #intro_container {
     margin-top: 100px;
 }
-
 .intro_text {
     /* font-size: 25px; */
     font-size: xx-large;
     color: var(--rosequartz);
+}
+.textalign-right {
+    text-align: right;
 }
 
 

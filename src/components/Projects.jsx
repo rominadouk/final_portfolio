@@ -4,22 +4,22 @@ import './Projects.css'
 const Projects = () => {
     return (  
         <>
-        <div className="projects">
-            <Container>
+        <div className="projects px-3">
+            <Container className="">
                 <Row>
                     <Col className="col-sm-12 col-lg-7 ">
                         <div className="project1 project_item">
                             <h2 className="projectTitle headers">Fitness Tracker</h2>
                             <p className="projectType">CRUD | MongoDB Atlas | Express | Node | EJS | Bootstrap</p>
-                            <div className="projectImg d-lg-none"></div>
+                            <div className="projectImg d-lg-none fitness-img"></div>
                             <p className="project_Description">A collaborative project completed during my time at General Assembly. Our task was to create an application with the CRUD functionality, this required the use of a database (MongoDB Atlas), axios calls to our Express server, and EJS (extended JavaScript) to display pages.</p>
                             <a href='https://fitness-tracker-ga.herokuapp.com/'>
                             <button className="btn showProject">Show Fitness Tracker</button>
                             </a>
                         </div>
                     </Col>
-                    <Col>
-                        <div className="projectImg d-none d-lg-block mt-lg-3"></div>
+                    <Col className="d-none d-lg-block">
+                        <div className="projectImg mt-lg-3 fitness-img"></div>
                     </Col>
                 </Row>
             </Container>
@@ -40,8 +40,8 @@ const Projects = () => {
                             </a>
                         </div>
                     </Col>
-                    <Col>
-                        <div className="projectImg d-none d-lg-block mt-lg-3 realist-img"></div>
+                    <Col className="d-none d-lg-block">
+                        <div className="projectImg mt-lg-3 realist-img"></div>
                     </Col>
                 </Row>
             </Container>
@@ -55,15 +55,15 @@ const Projects = () => {
                         <div className="project3 project_item">
                             <h2 className="projectTitle headers">Zen</h2>
                             <p className="projectType">MongoDB Atlas | Express JS | React JS | Node</p>
-                            <div className="projectImg d-lg-none"></div>
+                            <div className="projectImg d-lg-none zen-img"></div>
                             <p className="project_Description">My final capstone project to mark the completion of my time at General Assembly. I chose to hone my skills with the MERN stack. Zen is a mental health/self care application that helps users go more in depth about what they're feeling and in some instances, will provide users with resources based on the named emotions. Zen doubles as a journal, with the ability to save emotions that day and create journal posts. Try it out to find out more. </p>
                             <a href='https://zen-frontend.herokuapp.com/'>
                                 <button className="btn showProject">Show Zen</button>
                                 </a>
                         </div>
                     </Col>
-                    <Col>
-                        <div className="projectImg d-none d-lg-block mt-lg-3"></div>
+                    <Col className="d-none d-lg-block">
+                        <div className="projectImg mt-lg-3 zen-img"></div>
                     </Col>
                 </Row>
             </Container>

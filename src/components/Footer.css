@@ -1,4 +1,6 @@
-
+.footerUL {
+    color: var(--rosequartz);
+}
 a {
     text-decoration: none;
 }

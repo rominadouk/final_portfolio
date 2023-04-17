@@ -15,8 +15,8 @@
   }
 
   }
-
 .navUL .nav-link,
+.footer .nav-link,
 #brand {
   font-size: large;
 }
@@ -25,18 +25,21 @@
   #main-nav li {
   cursor: pointer;
 }
-
 #main-nav a,
-#main-nav h3 {
-  color: var(--rosequartz);
-}
-
-#main-nav h3:hover,
-#main-nav a:hover {
+#main-nav h3,
+.footer .nav-link {
   color: var(--paledogwood);
 }
-
-.nav-item:nth-child(1) {
+#main-nav h3:hover,
+#main-nav a:hover,
+.footer .nav-link:hover {
+  color: var(--isabelline);
+}
+button.navbar-toggler {
+  color: var(--ultraviolet);
+  background-color: var(--rosequartz);
+}
+/* .nav-item:nth-child(1) {
   margin-right: 100px;
 }
 
@@ -46,4 +49,4 @@
 
 .nav-item:nth-child(3) {
   margin-right: 100px;
-}
+} */
