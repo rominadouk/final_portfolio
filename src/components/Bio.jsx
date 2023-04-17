@@ -36,8 +36,7 @@ const Bio = () => {
                         <ul>
                             <li>Integrating Open AI's API into webapps</li>
                             <li>TypeScript</li>
-                            <li>Item 3</li>
-                            <li>Item 4</li>
+                            <li>Python</li>
                         </ul>
                     </Col>
                 </Row>

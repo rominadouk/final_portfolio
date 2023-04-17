@@ -24,7 +24,11 @@
     margin-top: 80px;
     margin-bottom: 80px;
 }
+.realist-img {
+    background-image: url('https://i.imgur.com/iNEU5el.png');
+    background-size: cover;
 
+}
 .dashed_line {
     margin: 0 auto;
     margin-top: 80px;

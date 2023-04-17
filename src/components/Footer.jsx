@@ -12,7 +12,7 @@ const Footer = () => {
                                 <a href="https://github.com/rominadouk">
                                     <li>GitHub</li>
                                 </a>
-                                <a href="https://github.com/rominadouk">
+                                <a href="https://www.linkedin.com/in/rominadouk/">
                                     <li>LinkedIn</li>
                                 </a>
                                 <a href="https://drive.google.com/file/d/1duQgP7nxLy3a1uh-UruslnmBeOK9NNK8/view?usp=share_link">
