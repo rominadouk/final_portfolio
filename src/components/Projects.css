@@ -1,16 +1,13 @@
 .projectTitle {
-    /* font-size: 40px; */
     font-size: xx-large;
     font-weight: bold;
 }
 .projectType {
-    /* font-size: 20px; */
     font-size: large;
     color: var(--paledogwood)
 }
 
 .project_Description {
-    /* font-size: 20px; */
     font-size: x-large;
     color: var(--ultraviolet);
 }
@@ -49,7 +46,6 @@
     .projectImg {
         margin-top: 20px;
         height: 300px;
-        /* width: 350px; */
 
     }
     .project_Description {

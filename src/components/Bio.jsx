@@ -35,7 +35,7 @@ const Bio = () => {
                         <h3 className='headers'>Learning</h3>
                         <ul>
                             <li>Integrating Open AI's API into webapps</li>
-                            <li>TypeScript</li>
+                            <li>Java</li>
                             <li>Python</li>
                         </ul>
                     </Col>

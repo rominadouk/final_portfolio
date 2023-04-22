@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import emailjs from '@emailjs/browser';
 import './Contact.css'
 
-
+// Code for Email JS
 const ContactForm = () => {
     const form = useRef();
 
