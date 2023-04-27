@@ -1,6 +1,6 @@
 import './Intro.css'
 import { Container, Row, Col } from 'react-bootstrap';
-import { ReactComponentElement as Icon } from './mega-creator.svg'
+import Icon from './Icon';
 
 const Intro = () => {
     return ( 
@@ -16,6 +16,7 @@ const Intro = () => {
                     </Col>
                 </Row>
             </Container>
+            <Icon />
             <div className='solid-line'></div>
         </div>
         </>

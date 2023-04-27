@@ -39,5 +39,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^7.0.0",
+    "svg-loader": "^0.0.2",
+    "webpack": "^5.81.0",
+    "webpack-cli": "^5.0.2"
   }
 }
