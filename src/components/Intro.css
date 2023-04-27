@@ -17,7 +17,7 @@
 .solid-line {
     background-color: var(--paledogwood);
     margin: 0 auto;
-    margin-top: -300px;
+    /* margin-top: -300px; */
     height: 2px;
     width: 200px;
 }
@@ -40,6 +40,10 @@
     color: var(--offwhite);
 }
 
+.scroll-down-txt {
+    color:#C9ADA7;
+    text-align: center;
+}
 /* Intro Styling */
 
 #icon {
@@ -52,6 +56,7 @@
 
 
 #intro-container {
+    margin-top: 50px;
     height: 100vh;
 }
 
@@ -63,17 +68,35 @@
     text-align: right;
 }
 
+.scroll-down-txt {
+    margin-top: 240px;
+}
+#intro-line {
+    margin-top: -10px;
+}
+
+@media (min-width:768) {
+
+}
 
 @media (min-width: 992px) {
-    #icon {
-        margin-top: -120px;
-        margin-left: 250px;
-    }
+
     #intro-container {
         margin-top: 200px;
         height: 100vh;
     }
     #intro-line {
-        margin-top: 130px;
+        margin-top: -10px;
     }
+    .scroll-down-txt {
+        margin-top: -40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #icon {
+        margin-top: -170px;
+        margin-left: 250px;
+    }
+
 }

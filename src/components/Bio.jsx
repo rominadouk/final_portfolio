@@ -16,7 +16,7 @@ const Bio = () => {
             <Container>
                 <Row>
                     <Col className='col-lg-8 offset-lg-2 mt-4'>
-                        <p className='bio_description'>I'm a 24-year-old full-stack software engineer, AKA a lifelong student! I'm a dog mom to the cutest Pomeranian. I enjoy computer games and my family in my free time. I completed a few years of college but decided it was not the right time to attend. I continued as a server, working in the restaurant/business industry for five years, building my people and business skill sets. Eventually, I created a comfortable position to make a career change and went all in. I took the first step in my tech journey and gained a solid foundation through General Assembly's Software Engineering Immersive Program.</p>
+                        <p className='bio_description'>I'm a 24-year-old full-stack software engineer, in other words, a lifelong student! I'm a dog mom to the cutest Pomeranian. I enjoy computer games and my family in my free time. I worked as a server, working in the restaurant/business industry for five years, building my people and business skill sets. Eventually, I created a comfortable position to make a career change and went all in. I took the first step in my tech journey and gained a solid foundation of frontend and backend languages and frameworks through General Assembly's Software Engineering Immersive Program.</p>
                     </Col>
                 </Row>
             </Container>
