@@ -1,13 +1,10 @@
-.contactField {
-    /* max-width: 500px; */
-}
 
 #contactForm {
     margin: 0 auto;
 }
 
 .submitContact {
-    background-color: var(--ultraviolet) !important;
+    background-color: var(--offwhite) !important;
     color: var(--isabelline) !important;
     font-size: large !important;
     padding: 6px 12px;
@@ -18,5 +15,5 @@
     color: var(--paledogwood) !important;
 }
 .form-label {
-    color: var(--ultraviolet);
+    color: var(--offwhite);
 }

@@ -4,7 +4,7 @@
     --secondary: #F2E9E4;
     --lines: #9A8C98;
     --spacecadet:#000000;
-    --ultraviolet: #ececec;
+    --offwhite: #f0f8ff;
     --rosequartz: #9A8C98;
     --paledogwood: #C9ADA7;
     --isabelline: #F2E9E4;
@@ -16,7 +16,7 @@
 .solid-line {
     background-color: var(--paledogwood);
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: -300px;
     height: 2px;
     width: 200px;
 }
@@ -36,44 +36,24 @@
     color: var(--paledogwood) !important;
 }
 .headers {
-    color: var(--ultraviolet);
+    color: var(--offwhite);
 }
+
 /* Intro Styling */
-#intro_container {
-    margin-top: 100px;
+#romina {
+    color:#e8cdf6
 }
-.intro_text {
-    font-size: xx-large;
-    color: var(--rosequartz);
+#intro-container {
+    margin-top: 200px;
+    height: 100vh;
+}
+
+.intro-text {
+    font-size: 20px;
+    color: var(--offwhite);
 }
 .textalign-right {
     text-align: right;
 }
 
 
-@media  (min-width: 1401px ) {
-    .intro_text {
-        font-size: 25px;
-        overflow: hidden; /* Ensures the content is not revealed until the animation */
-        border-right: .15em solid tan; /* The typwriter cursor */
-        white-space: nowrap; /* Keeps the content on a single line */
-        margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-        letter-spacing: .10em; /* Adjust as needed */
-        animation: 
-        typing 4s steps(40, end),
-        blink-caret .75s step-end infinite;
-      }
-      
-      /* The typing effect */
-      @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-      }
-      
-      /* The typewriter cursor effect */
-      @keyframes blink-caret {
-        from, to { border-color: transparent }
-        50% { border-color: #F2E9E4; }
-      }
-
-}

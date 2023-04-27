@@ -4,9 +4,8 @@ import './Bio.css'
 
 const Bio = () => {
     return ( 
-        <>
         <div className='bio px-3'>
-            <div className='solid-line'></div>
+            <div id='bio-line'className='solid-line'></div>
             <Container className='bio-text'>
                 <Row>
                     <Col className='offset-lg-2 col-lg-8'>
@@ -42,7 +41,6 @@ const Bio = () => {
                 </Row>
                 </Container>
                 </div>
-        </>
      );
 }
  
