@@ -13,6 +13,7 @@
 #footerContainer {
     background-color: var(--spacecadet);
 }
+
 .solid-line {
     background-color: var(--paledogwood);
     margin: 0 auto;
@@ -40,11 +41,17 @@
 }
 
 /* Intro Styling */
+
+#icon {
+    width: 100%;
+}
+
 #romina {
     color:#e8cdf6
 }
+
+
 #intro-container {
-    margin-top: 200px;
     height: 100vh;
 }
 
@@ -57,3 +64,16 @@
 }
 
 
+@media (min-width: 992px) {
+    #icon {
+        margin-top: -120px;
+        margin-left: 250px;
+    }
+    #intro-container {
+        margin-top: 200px;
+        height: 100vh;
+    }
+    #intro-line {
+        margin-top: 130px;
+    }
+}
