@@ -14,7 +14,8 @@ ul {
 
 }
 .softwareEngineerTxt {
-    text-shadow: 2px 2px #F2E9E4;
+    text-shadow: 2px 2px #9A8C98;
+    color: var(--paledogwood);
 }
 
 .strengths ul li,

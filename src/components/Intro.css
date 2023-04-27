@@ -3,8 +3,8 @@
     --background: #C9ADA7;
     --secondary: #F2E9E4;
     --lines: #9A8C98;
-    --spacecadet: #22223B;
-    --ultraviolet: #4A4E69;
+    --spacecadet:#000000;
+    --ultraviolet: #ececec;
     --rosequartz: #9A8C98;
     --paledogwood: #C9ADA7;
     --isabelline: #F2E9E4;
@@ -21,13 +21,13 @@
     width: 200px;
 }
 .mainPage {
-    background-color: var(--isabelline);
+    background-color: rgb(16, 16, 16);
 }
 .contactField {
     background-color: var(--secondary);
 }
 .showProject {
-    background-color: var(--ultraviolet) !important;
+    background-color: #9A8C98 !important;
     color: var(--isabelline) !important;
     font-size: large !important;
 }
@@ -43,7 +43,6 @@
     margin-top: 100px;
 }
 .intro_text {
-    /* font-size: 25px; */
     font-size: xx-large;
     color: var(--rosequartz);
 }
