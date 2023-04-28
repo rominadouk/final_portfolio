@@ -1,4 +1,7 @@
 /* ROOT COLORS */
+/* * {
+    border: 2px solid gold;
+} */
 :root {
     --background: #C9ADA7;
     --secondary: #F2E9E4;
@@ -17,7 +20,6 @@
 .solid-line {
     background-color: var(--paledogwood);
     margin: 0 auto;
-    /* margin-top: -300px; */
     height: 2px;
     width: 200px;
 }
@@ -42,8 +44,24 @@
 
 .scroll-down-txt {
     color:#C9ADA7;
-    text-align: center;
+    text-align: right;
+    writing-mode: vertical-rl;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: rotate(180deg);
+    margin-bottom: 25px;
+    border-left: 3px solid;
+    font-size: 18px;
+
 }
+.scroll-down-txt svg {
+    margin-right: 14px;
+}
+.scroll-down-txt:hover {
+    cursor: pointer;
+}
+
 /* Intro Styling */
 
 #icon {
@@ -63,21 +81,14 @@
 .intro-text {
     font-size: 20px;
     color: var(--offwhite);
+
 }
+
 .textalign-right {
     text-align: right;
 }
 
-.scroll-down-txt {
-    margin-top: 240px;
-}
-#intro-line {
-    margin-top: -10px;
-}
 
-@media (min-width:768) {
-
-}
 
 @media (min-width: 992px) {
 
@@ -85,18 +96,13 @@
         margin-top: 200px;
         height: 100vh;
     }
-    #intro-line {
-        margin-top: -10px;
-    }
-    .scroll-down-txt {
-        margin-top: -40px;
-    }
+
 }
 
 @media (min-width: 1200px) {
     #icon {
         margin-top: -170px;
-        margin-left: 250px;
+
     }
 
 }
