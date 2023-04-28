@@ -7,8 +7,6 @@ import { ArrowUp } from 'react-bootstrap-icons';
 
 const Intro = () => {
 
-    //const [scrollDown, setScrollDown] = useState(false)
-    console.log(window.location)
 
     return ( 
         <>
