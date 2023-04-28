@@ -1,10 +1,8 @@
 # Final Portfolio
-Live Link: I am working on some changes to this project, will be deployed again soon
-
+Live Link: https://final-portfolio.onrender.com/
 
 This project is deployed on Render.
 This project was engineered by Romina Douk. 
-This project was designed by UX/UI designer Christian Jackson.
 
 ## Languages: 
 HTML, CSS, JavaScript
