@@ -1,5 +1,5 @@
 import './Intro.css'
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Icon from '../assets/mega-creator (1).svg'
 import { Link } from 'react-scroll';
