@@ -34,7 +34,7 @@ const Projects = () => {
                             <h2 className="projectTitle headers">Real-ist</h2>
                             <p className="projectType"> Python | Django | React JS | PostgreSQL</p>
                             <div className="projectImg d-lg-none realist-img"></div>
-                            <p className="project_Description"> A collaborative group project during my time at General Assembly. Our task was to build a Django API (Application Programming Interface) for our backend, and utilize React JS for our frontend, this project needed full CRUD functionality and must be able to display data. We decided on a Real Estate website, we learned Python and Tailwind CSS for this project.</p>
+                            <p className="project_Description"> A collaborative group project during my time at General Assembly. Our task was to build a Django API (Application Programming Interface) for our backend, and utilize React JS for our frontend, this project needed full CRUD functionality and must be able to display data. We decided on a Real Estate website, we learned Python and Tailwind CSS for this project. (*render.com may take a second to load)</p>
                             <a href='https://real-ist-frontend.onrender.com/' >
                             <button className="btn showProject">Show Real-ist</button>
                             </a>
