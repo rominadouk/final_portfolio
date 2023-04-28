@@ -1,20 +1,25 @@
 
-/* #contactForm {
-    margin: 0 auto;
-} */
-
-
-.submitContact {
-    background-color: var(--offwhite) !important;
-    color: var(--isabelline) !important;
-    font-size: large !important;
-    padding: 6px 12px;
-    border-radius: 0.375em;
+#contact-info {
+    margin-top: 100px;
 }
-.submitContact:hover {
-    background-color: var(--spacecadet) !important;
-    color: var(--paledogwood) !important;
+
+.links {
+    color: var(--offwhite)
+
 }
-.form-label {
-    color: var(--offwhite);
+
+li {
+    font-size: 25px;
+}
+
+.contact-header {
+    color: var(--paledogwood)
+}
+
+.link:hover {
+    color: #e8cdf6;
+}
+.social-icon {
+    margin-right: 7px;
+    margin-top: -5px;
 }

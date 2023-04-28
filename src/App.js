@@ -3,7 +3,6 @@ import Projects from "./components/Projects";
 import Navigation from "./components/Navbar";
 import Bio from "./components/Bio";
 import ContactForm from "./components/Contact";
-import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -13,7 +12,6 @@ const App = () => {
         <Projects />
         <Bio />
         <ContactForm id='contactForm' />
-        <Footer />
     </div>
   );
 }

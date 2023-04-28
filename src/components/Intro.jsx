@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Icon from '../assets/mega-creator (1).svg'
 import { Link } from 'react-scroll';
-import { ArrowUp} from 'react-bootstrap-icons';
+import { ArrowUp } from 'react-bootstrap-icons';
 
 const Intro = () => {
 
