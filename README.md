@@ -1,7 +1,7 @@
 # Final Portfolio
-Live Link: https://final-portfolio.onrender.com/
+Live Link: https://final-portfolio-beta.vercel.app/
 
-This project is deployed on Render.
+This project is deployed on Vercel.
 This project was engineered by Romina Douk. 
 
 ## Languages: 
