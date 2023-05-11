@@ -15,7 +15,6 @@ const ContactForm = () => {
                         <ul className='links mt-5'>
                             <li className='lead mt-3 mb-2 display-5 contact-header'><strong>Get In Touch</strong></li>
                             <a className='nav-link mb-1' href="https://github.com/rominadouk">
-                                {/* <img className='social-icon' src={GithubIcon} /> */}
                                 <li className='link'> <Github className='social-icon'/> GitHub</li>
                             </a>
                             <a className='nav-link mb-1' href="https://www.linkedin.com/in/rominadouk/">
