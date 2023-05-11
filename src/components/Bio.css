@@ -8,10 +8,6 @@ ul {
     margin-top: 100px;
 }
 
-/* .bio {
-    height: 100vh;
-} */
-
 .bio-text {
     margin-top: 100px;
 }
@@ -31,11 +27,3 @@ ul {
     color: var(--offwhite);
     font-size: large;
 }
-
-/* @media (min-width: 992px) {
-
-    .bio {
-        height: 100vh;
-    }
-
-} */
