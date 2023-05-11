@@ -16,6 +16,9 @@ const Projects = () => {
                             <a href='https://fitness-tracker-ga.herokuapp.com/'>
                             <button className="btn showProject">Show Fitness Tracker</button>
                             </a>
+                            <a href='https://github.com/rominadouk/Fitness-Tracker-CRUD-Application'>
+                            <button className="btn showProject showCode">Show Code</button>
+                            </a>
                         </div>
                     </Col>
                     <Col className="d-none d-lg-block">
@@ -38,6 +41,9 @@ const Projects = () => {
                             <a href='https://real-ist-frontend.onrender.com/' >
                             <button className="btn showProject">Show Real-ist</button>
                             </a>
+                            <a href='https://github.com/ryanmoon19/real-ist_frontend'>
+                            <button className="btn showProject showCode">Show Frontend Code</button>
+                            </a>
                         </div>
                     </Col>
                     <Col className="d-none d-lg-block">
@@ -59,7 +65,10 @@ const Projects = () => {
                             <p className="project_Description">My final capstone project to mark the completion of my time at General Assembly. I chose to hone my skills with the MERN stack. Zen is a mental health/self care application that helps users go more in depth about what they're feeling and in some instances, will provide users with resources based on the named emotions. Zen doubles as a journal, with the ability to save emotions that day and create journal posts. Try it out to find out more. </p>
                             <a href='https://zen-frontend.herokuapp.com/'>
                                 <button className="btn showProject">Show Zen</button>
-                                </a>
+                            </a>
+                            <a href='https://github.com/rominadouk/zen_frontend'>
+                                <button className="btn showProject showCode">Show Code</button>
+                            </a>
                         </div>
                     </Col>
                     <Col className="d-none d-lg-block">

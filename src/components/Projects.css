@@ -41,7 +41,9 @@
     border-top: solid 2px;
     color: var(--paledogwood);
 }
-
+.showCode {
+    margin-left: 20px;
+}
 @media (max-width: 991px) {
     .projectImg {
         margin-top: 20px;
