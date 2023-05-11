@@ -67,7 +67,7 @@ const Projects = () => {
                                 <button className="btn showProject">Show Zen</button>
                             </a>
                             <a href='https://github.com/rominadouk/zen_frontend'>
-                                <button className="btn showProject showCode">Show Code</button>
+                                <button className="btn showProject showCode">Show Frontend Code</button>
                             </a>
                         </div>
                     </Col>
