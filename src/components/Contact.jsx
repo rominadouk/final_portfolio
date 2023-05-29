@@ -24,6 +24,7 @@ const ContactForm = () => {
                             <li className='link'><FiletypePdf className='social-icon'/>Resume (PDF) </li>
                             </a>
                         </ul>
+                        <p class='credits'>This portfolio was designed and built by Romina Douk</p>
                     </Col>
                 </Row>
             </Container>

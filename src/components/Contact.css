@@ -23,3 +23,6 @@ li {
     margin-right: 7px;
     margin-top: -5px;
 }
+.credits {
+    color: var(--offwhite)
+}
