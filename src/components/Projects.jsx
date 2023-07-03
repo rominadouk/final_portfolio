@@ -17,7 +17,7 @@ const Projects = () => {
                             <button className="btn showProject">Show FoodSpot</button>
                             </a>
                             <a href='https://github.com/rominadouk/foodspot_frontend/tree/main'>
-                            <button className="btn showProject showCode">Show Code</button>
+                            <button className="btn showProject showCode">Show Frontend Code</button>
                             </a>
                         </div>
                     </Col>
