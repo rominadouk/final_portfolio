@@ -13,7 +13,7 @@ const ContactForm = () => {
                     <Col className='offset-lg-2 col-lg-8'>
                         <div className='solid-line'></div>
                         <ul className='links mt-5'>
-                            <li className='lead mt-3 mb-2 display-5 contact-header'><strong>Get In Touch</strong></li>
+                            <li className='lead mt-3 mb-2 display-5 contact-header contact-header'><strong>Get In Touch</strong></li>
                             <a className='nav-link mb-1' href="https://github.com/rominadouk">
                                 <li className='link'> <Github className='social-icon'/> GitHub</li>
                             </a>

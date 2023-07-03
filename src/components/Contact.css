@@ -26,3 +26,6 @@ li {
 .credits {
     color: var(--offwhite)
 }
+.contact-header {
+    margin: 0 auto;
+}

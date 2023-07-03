@@ -9,20 +9,20 @@ const Projects = () => {
                 <Row>
                     <Col className="col-sm-12 col-lg-7 ">
                         <div className="project1 project_item">
-                            <h2 className="projectTitle headers">Fitness Tracker</h2>
-                            <p className="projectType">CRUD | MongoDB Atlas | Express | Node | EJS | Bootstrap</p>
-                            <div className="projectImg d-lg-none fitness-img"></div>
-                            <p className="project_Description">A collaborative project completed during my time at General Assembly. Our task was to create an application with the CRUD functionality, this required the use of a database (MongoDB Atlas), axios calls to our Express server, and EJS (extended JavaScript) to display pages.</p>
-                            <a href='https://fitness-tracker-ga.herokuapp.com/'>
-                            <button className="btn showProject">Show Fitness Tracker</button>
+                            <h2 className="projectTitle headers">FoodSpot (Current Project)</h2>
+                            <p className="projectType">HTML, CSS, TypeScript, React, React-Bootstrap</p>
+                            <div className="projectImg d-lg-none foodspot-img"></div>
+                            <p className="project_Description"> A solo food blog project that is still being designed and built by me. This site was built with a mobile-first design in mind. Future updates will include a backend (Express JS) and a database (PostgreSQL). The website has a base design and functionality will be added shortly. </p>
+                            <a href='https://foodspot-frontend.vercel.app/'>
+                            <button className="btn showProject">Show FoodSpot</button>
                             </a>
-                            <a href='https://github.com/rominadouk/Fitness-Tracker-CRUD-Application'>
+                            <a href='https://github.com/rominadouk/foodspot_frontend/tree/main'>
                             <button className="btn showProject showCode">Show Code</button>
                             </a>
                         </div>
                     </Col>
                     <Col className="d-none d-lg-block">
-                        <div className="projectImg mt-lg-3 fitness-img"></div>
+                        <div className="projectImg mt-lg-3 foodspot-img"></div>
                     </Col>
                 </Row>
             </Container>
