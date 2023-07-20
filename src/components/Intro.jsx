@@ -1,5 +1,5 @@
 import './Intro.css'
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Icon from '../assets/mega-creator (1).svg'
 import { Link } from 'react-scroll';
@@ -7,6 +7,20 @@ import { ArrowUp } from 'react-bootstrap-icons';
 
 const Intro = () => {
 
+    const scrollDownButton = () => {
+        const scrollButton = document.getElementById("scroll-down")
+        if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            //Button will show if user is at the top of the window
+            scrollButton.style.display = "none" //Hide Button
+        } else {
+            scrollButton.style.display = "block" //Show Button
+
+    }
+}
+
+    useEffect(()=> {
+        scrollDownButton();
+    }, [])
 
     return ( 
         <>
@@ -26,7 +40,7 @@ const Intro = () => {
                 <Row className='scroll-row'>
                     <Col className='col-12'>
                         <Link to="projects" spy={true} smooth={true} offset={-90} duration={90}>
-                            <p className='scroll-down-txt'> <ArrowUp/> scroll down </p>
+                            <p className='scroll-down-txt' id='scroll-down'> <ArrowUp/> scroll down </p>
                         </Link>
                     </Col>
                 </Row>
