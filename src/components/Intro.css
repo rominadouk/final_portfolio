@@ -15,6 +15,10 @@
     background-color: var(--spacecadet);
 }
 
+#up-arrow {
+    transform: rotate(180deg);
+}
+
 .solid-line {
     background-color: var(--paledogwood);
     margin: 0 auto;
@@ -47,17 +51,30 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    transform: rotate(180deg);
     margin-bottom: 25px;
     border-left: 3px solid;
     font-size: 18px;
-
 }
 .scroll-down-txt svg {
     margin-right: 14px;
 }
 .scroll-down-txt:hover {
     cursor: pointer;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {transform: translateY(1px);} 
+    40% {transform: translateY(-30px);} 
+    60% {transform: translateY(-15px);} 
+ } 
+
+.scroll-down-animation {
+    /* setting animation name */
+    animation-name: bounce;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 /* Intro Styling */
