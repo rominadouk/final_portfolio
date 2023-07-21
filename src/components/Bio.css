@@ -27,3 +27,7 @@ ul {
     color: var(--offwhite);
     font-size: large;
 }
+.language-icons {
+    color: var(--offwhite);
+    height: 60px;
+}
