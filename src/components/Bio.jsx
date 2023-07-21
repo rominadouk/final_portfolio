@@ -27,8 +27,8 @@ const Bio = () => {
                         <p className='bio_description'>I'm a full-stack software engineer, in other words, a lifelong student! I enjoy computer games, my family, and my Pomeranian in my free time. I worked as a server in the restaurant industry for five years in management where I built my people skills and I never lost sight of my true goal - to pursue something I was passionate about... Software Engineering! I created a comfortable position to focus on coding and went all in. I gained a solid foundation of frontend and backend languages and frameworks through General Assembly's Software Engineering Immersive Program and I continue to look for growth opportunities.</p>
                         <br/>
                     </Col>
-                    <Row class='text-center'>
-                        <Col class='text-center'>
+                    <Row>
+                        <Col className='text-center'>
                             <FontAwesomeIcon class='language-icons mx-2 mx-lg-0 col-lg-1' alt='html5-logo' icon={['fab', 'html5']} />
                             <FontAwesomeIcon class='language-icons mx-2 mx-lg-0 col-lg-1' alt='css3-logo' icon={['fab', 'css3-alt']} />
                             <FontAwesomeIcon class='language-icons mx-2 mx-lg-0 col-lg-1' alt='javascript-logo' icon={['fab', 'js']} />
