@@ -44,7 +44,7 @@ const Intro = () => {
                     <Col className='col-12 col-xl-4'>
                         <h1 className='display-1 headers'><strong><span className='display-3'>Hi! I'm </span><span id='romina'>Romina.</span></strong></h1>
                         <p className="display-6 headers">Full-Stack Software Engineer</p>
-                        <p className="intro-text">I enjoy creating efficient and reliable software.<br/> 
+                        <p className="intro-text">I enjoy creating efficient and reliable software that helps others.<br/> 
                         Let's build something amazing together!</p>
                     </Col>
                     <Col className='col-12 col-md-7  offset-1 col-xl-7 mr-0 d-none d-lg-block'>
