@@ -72,10 +72,11 @@
 .scroll-down-animation {
     /* setting animation name */
     animation-name: bounce;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
 }
+
 
 /* Intro Styling */
 

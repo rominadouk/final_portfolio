@@ -1,7 +1,11 @@
 import { Container, Row, Col } from "react-bootstrap";
 import './Projects.css'
+import { useEffect } from "react";
 
 const Projects = () => {
+
+
+
     return (  
         <>
         <div className="projects px-3">

@@ -23,6 +23,8 @@ const Intro = () => {
     }
 }
 
+
+
     useEffect(()=> {
         //calling initial function
         scrollDownButton();
@@ -31,7 +33,7 @@ const Intro = () => {
         window.addEventListener("scroll", () => {
             scrollDownButton()
         });
-        
+
     },[])
 
     return ( 
