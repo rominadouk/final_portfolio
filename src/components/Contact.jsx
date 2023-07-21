@@ -10,10 +10,10 @@ const ContactForm = () => {
         <div id="contact-info">
             <Container>
                 <Row>
-                    <Col className='offset-lg-2 col-lg-8'>
-                        <div className='solid-line'></div>
-                        <ul className='links mt-5'>
-                            <li className='lead mt-3 mb-2 display-5 contact-header contact-header'><strong>Get In Touch</strong></li>
+                    <div className='solid-line'></div>
+                    <Col className=' col-lg-8'>
+                        <ul className='links'>
+                            <li className='lead mt-3 mb-2 display-6 contact-header contact-header'><strong>Get In Touch</strong></li>
                             <a className='nav-link mb-1' href="https://github.com/rominadouk">
                                 <li className='link'> <Github className='social-icon'/> GitHub</li>
                             </a>
@@ -24,7 +24,7 @@ const ContactForm = () => {
                             <li className='link'><FiletypePdf className='social-icon'/>Resume (PDF) </li>
                             </a>
                         </ul>
-                        <p class='credits'>This portfolio was designed and built by Romina Douk</p>
+                        <p class='credits mx-3'>This site was designed and built by Romina Douk.</p>
                     </Col>
                 </Row>
             </Container>

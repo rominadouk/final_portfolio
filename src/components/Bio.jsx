@@ -21,6 +21,7 @@ const Bio = () => {
                         <p className='bio_description'>Languages: HTML, CSS, JavaScript, TypeScript, Python. I'm always working towards becoming more fluent in these areas.</p>
                     </Col>
                 </Row>
+                
             </Container>
 
                 </div>
