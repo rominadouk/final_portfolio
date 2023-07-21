@@ -28,7 +28,7 @@ const Bio = () => {
                         <br/>
                     </Col>
                     <Row class='text-center'>
-                        <Col>
+                        <Col class='text-center'>
                             <FontAwesomeIcon class='language-icons mx-2 mx-lg-0 col-lg-1' alt='html5-logo' icon={['fab', 'html5']} />
                             <FontAwesomeIcon class='language-icons mx-2 mx-lg-0 col-lg-1' alt='css3-logo' icon={['fab', 'css3-alt']} />
                             <FontAwesomeIcon class='language-icons mx-2 mx-lg-0 col-lg-1' alt='javascript-logo' icon={['fab', 'js']} />
