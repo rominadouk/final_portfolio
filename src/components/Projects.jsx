@@ -51,7 +51,7 @@ const Projects = () => {
                             <button className="btn showProject">Show App</button>
                             </a>
                             <a href='https://github.com/rominadouk/foodspot_frontend/tree/main'>
-                            <button className="btn showProject showCode">Show Frontend Code</button>
+                            <button className="btn showProject showCode">Show Code</button>
                             </a>
                         </div>
                     </Col>
@@ -76,7 +76,7 @@ const Projects = () => {
                             <button className="btn showProject">Show App</button>
                             </a>
                             <a href='https://github.com/ryanmoon19/real-ist_frontend'>
-                            <button className="btn showProject showCode">Show Frontend Code</button>
+                            <button className="btn showProject showCode">Show Code</button>
                             </a>
                         </div>
                     </Col>
@@ -101,7 +101,7 @@ const Projects = () => {
                                 <button className="btn showProject">Show App</button>
                             </a>
                             <a href='https://github.com/rominadouk/zen_frontend'>
-                                <button className="btn showProject showCode">Show Frontend Code</button>
+                                <button className="btn showProject showCode">Show Code</button>
                             </a>
                         </div>
                     </Col>
