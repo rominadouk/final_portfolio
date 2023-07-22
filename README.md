@@ -1,5 +1,5 @@
 # Final Portfolio
-Live Link: https://final-portfolio-beta.vercel.app/
+Live Link: https://romina-portfolio-beta.vercel.app/
 
 This project is deployed on Vercel.
 This project was designed and built by Romina Douk. 
@@ -8,7 +8,7 @@ This project was designed and built by Romina Douk.
 HTML, CSS, JavaScript
 
 ## Technologies used: 
-React, React-Router-Dom, React-Smooth-Scroll, React-Bootstrap
+React, React-Router-Dom, React-Smooth-Scroll, React-Bootstrap, font-awesome
 
 ## Wireframes: 
 https://whimsical.com/portfolio-wireframes-4EFofSNGKxN49LDi7CS2qH
@@ -32,6 +32,4 @@ This app is a single-page application designed using React and react-smooth-scro
 
 ## Future Updates: 
 - Design changes 
-- Fade-In effects will be implemented when the user first scrolls to the page 
-- Footer will be redesigned
 - Logo will be created
