@@ -43,20 +43,20 @@ const Projects = () => {
                 <Row>
                     <Col className="col-sm-12 col-lg-7 ">
                         <div className="project1 project_item">
-                            <h2 className="projectTitle headers">FoodSpot (Current Project)</h2>
-                            <p className="projectType">HTML | CSS | TypeScript | React | React-Bootstrap</p>
-                            <div className="projectImg d-lg-none foodspot-img"></div>
-                            <p className="project_Description"> A solo food blog project that is still being designed and built by me. This site was built with a mobile-first design in mind. Future updates will include a backend (Express JS) and a database (PostgreSQL). The website has a base design; functionality will be added shortly. </p>
-                            <a href='https://foodspot-frontend.vercel.app/'>
+                            <h2 className="projectTitle headers">Personal Portfolio</h2>
+                            <p className="projectType">HTML | CSS | Javascript | React | React-Bootstrap</p>
+                            <div className="projectImg d-lg-none portfolio-img"></div>
+                            <p className="project_Description"> A personal project to showcase my work, designed and built by me. This project was designed with a mobile-first approach and is responsive. This project utilizes various react hooks and react-smooth-scroll. It features a few Javascript functions and CSS animimations to create a bouncing effect for the side scroll and a hover-in on scroll effect for the 'projects' container. This portfolio is consistently updated. </p>
+                            {/* <a href=''>
                             <button className="btn showProject">Show App</button>
-                            </a>
-                            <a href='https://github.com/rominadouk/foodspot_frontend/tree/main'>
-                            <button className="btn showProject showCode">Show Code</button>
+                            </a> */}
+                            <a href='https://github.com/rominadouk/final_portfolio'>
+                            <button className="btn showProject">Show Code</button>
                             </a>
                         </div>
                     </Col>
                     <Col className="d-none d-lg-block">
-                        <div className="projectImg mt-lg-3 foodspot-img"></div>
+                        <div className="projectImg mt-lg-3 portfolio-img"></div>
                     </Col>
                 </Row>
             </Container>
@@ -68,20 +68,20 @@ const Projects = () => {
                 <Row>
                     <Col className="col-sm-12 col-lg-7">
                         <div className="project2 project_item">
-                            <h2 className="projectTitle headers">Real-ist</h2>
-                            <p className="projectType"> Python | Django | React JS | PostgreSQL</p>
+                            <h2 className="projectTitle headers">FoodSpot (In-Progress)</h2>
+                            <p className="projectType"> HTML | CSS | TypeScript | React | React-Bootstrap</p>
                             <div className="projectImg d-lg-none realist-img"></div>
-                            <p className="project_Description"> A collaborative group project during my time at General Assembly. Our task was to build a Django API (Application Programming Interface) for our backend, and utilize React JS for our frontend, this project needed full CRUD functionality and must be able to display data. We decided on a Real Estate website, we learned Python and Tailwind CSS for this project. This homepage was designed by me. (* render.com may take a second to load)</p>
-                            <a href='https://real-ist-frontend.onrender.com/' >
+                            <p className="project_Description"> A solo food blog project that is still being designed and built by me. This site was built with a mobile-first design in mind. Future updates will include a backend (Express JS) and a database (PostgreSQL). The website has a base design; functionality will be added shortly.</p>
+                            <a href='https://foodspot-frontend.vercel.app/' >
                             <button className="btn showProject">Show App</button>
                             </a>
-                            <a href='https://github.com/ryanmoon19/real-ist_frontend'>
+                            <a href='https://github.com/rominadouk/foodspot_frontend/tree/main'>
                             <button className="btn showProject showCode">Show Code</button>
                             </a>
                         </div>
                     </Col>
                     <Col className="d-none d-lg-block">
-                        <div className="projectImg mt-lg-3 realist-img"></div>
+                        <div className="projectImg mt-lg-3 foodspot-img"></div>
                     </Col>
                 </Row>
             </Container>
