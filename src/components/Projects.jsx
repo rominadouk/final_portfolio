@@ -70,7 +70,7 @@ const Projects = () => {
                         <div className="project2 project_item">
                             <h2 className="projectTitle headers">FoodSpot (In-Progress)</h2>
                             <p className="projectType"> HTML | CSS | TypeScript | React | React-Bootstrap</p>
-                            <div className="projectImg d-lg-none realist-img"></div>
+                            <div className="projectImg d-lg-none foodspot-img"></div>
                             <p className="project_Description"> A solo food blog project that is still being designed and built by me. This site was built with a mobile-first design in mind. Future updates will include a backend (Express JS) and a database (PostgreSQL). The website has a base design; functionality will be added shortly.</p>
                             <a href='https://foodspot-frontend.vercel.app/' >
                             <button className="btn showProject">Show App</button>
