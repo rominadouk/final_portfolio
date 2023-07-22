@@ -46,6 +46,22 @@
 .showCode {
     margin-left: 20px;
 }
+/* fade in effects */
+
+.fade-in-section {
+    opacity: 0;
+    /* use transform to move container down 1/5th of the viewport */
+    transform: translateY(35vh);
+    visibility: hidden;
+    transition: opacity 0.6s ease-out, transform 1.2s ease-out;
+    will-change: opacity, visibility;
+}
+.fade-in-section.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+}
+
 @media (max-width: 991px) {
     .projectImg {
         margin-top: 20px;

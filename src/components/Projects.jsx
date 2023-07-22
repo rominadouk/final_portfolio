@@ -1,15 +1,45 @@
 import { Container, Row, Col } from "react-bootstrap";
 import './Projects.css'
-import { useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const Projects = () => {
+    // FADE IN FUNCTION
+
+    //set state isVisible to false to hide initial content
+    const [isVisible, setVisible] = useState(false);
+
+    //utilize ref hook (reference elements/values in react components, domRef referenced DOM element in component)
+    const domRef = useRef();
+    // Function will be executed after component is rendered. Second argument is array of dependencies that determines when effect should run. Empty array = effect run once after initial render. 
+    useEffect(() => {
+        //IntersectionObserver: Browser API allows observing when element enters/exits VH or intersects with other elements.
+        //if there is a change, it will use the callback function; this function will update the visible state to whether or not the entry is intersecting. true = in VH. false = not in VH
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => setVisible(entry.isIntersecting))
+        });
+        //local variable to hold reference to current DOM element being observed
+        const currentRef = domRef.current
+
+        // if currentRef is valid and available, intersection observer will observe the element, calls observe on current element.
+        if (currentRef) {
+            observer.observe(domRef.current);
+        }
+        // clean up function, called when component unmounts or when effect is rerun due to dependencies; here it is used to unobserve the element when the component is mounted (the effect already happened); this helps prevent memory leaks
+        return () => {
+            //Check if domRef.current exists before unobserving
+            if (currentRef) {
+                observer.unobserve(currentRef)
+        }
+    }
+
+    }, []);
 
 
 
-    return (  
+    return ( 
         <>
-        <div className="projects px-3">
-            <Container className="">
+        <div className={`fade-in-section projects px-3 ${isVisible ? 'is-visible' : ''}`} ref={domRef}>
+            <Container id="main-project1-container">
                 <Row>
                     <Col className="col-sm-12 col-lg-7 ">
                         <div className="project1 project_item">
@@ -34,7 +64,7 @@ const Projects = () => {
             <Container>
             <div className='dashed_line'></div>
             </Container>
-            <Container className="mt-5">
+            <Container id="main-project2-container" className='mt-5'>
                 <Row>
                     <Col className="col-sm-12 col-lg-7">
                         <div className="project2 project_item">
@@ -59,7 +89,7 @@ const Projects = () => {
             <Container>
             <div className='dashed_line'></div>
             </Container>
-            <Container className="mt-5">
+            <Container id="main-project3-container" className='mt-5'>
                 <Row>
                     <Col className="col-sm-12 col-lg-7">
                         <div className="project3 project_item">
