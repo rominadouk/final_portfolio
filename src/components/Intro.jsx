@@ -53,7 +53,7 @@ const Intro = () => {
                 </Row>
                 <Row className='scroll-row'>
                     <Col className='col-12'>
-                        <Link to="projects" spy={true} smooth={true} offset={-90} duration={90}>
+                        <Link to="projects" spy={true} smooth={true} offset={-370} duration={1}>
                             <p className='scroll-down-txt' id='scroll-down'> scroll down <ArrowUp id="up-arrow"/> </p>
                         </Link>
                     </Col>

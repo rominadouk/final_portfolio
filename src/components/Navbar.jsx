@@ -25,7 +25,7 @@ const Navigation = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav navUL textalign-right">
                         <li className="nav-item">
-                        <Link className="nav-link" to="projects" spy={true} smooth={true} offset={-90} duration={90}>Projects</Link>
+                        <Link className="nav-link" to="projects" spy={true} smooth={true} offset={-370} duration={5}>Projects</Link>
                         </li>
                         <li className="nav-item ms-5">
                         <Link className="nav-link" to="bio" spy={true} smooth={true} duration={90}>Bio</Link>

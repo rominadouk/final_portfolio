@@ -91,7 +91,7 @@
 
 #intro-container {
     margin-top: 50px;
-    height: 100vh;
+    height: 74vh;
 }
 
 .intro-text {
@@ -110,7 +110,7 @@
 
     #intro-container {
         margin-top: 200px;
-        height: 100vh;
+        /* height: 100vh; */
     }
 
 }
