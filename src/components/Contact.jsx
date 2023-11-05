@@ -20,7 +20,7 @@ const ContactForm = () => {
                             <a className='nav-link mb-1' href="https://www.linkedin.com/in/rominadouk/" target='_blank'>
                                 <li className='link'><Linkedin className='social-icon'/> LinkedIn</li>
                             </a>
-                            <a className='nav-link' href="https://drive.google.com/file/d/13Rp1rZbd0D7v-1oBqYgZL0gE0syZqN4s/view?usp=sharing" target='_blank'>
+                            <a className='nav-link' href="https://drive.google.com/file/d/1IhR1mTM4qKPgdKupwfQHeQxDlky9O1-Y/view?usp=sharing" target='_blank'>
                                 <li className='link'><FiletypePdf className='social-icon'/>Resume (PDF) </li>
                             </a>
                         </ul>
