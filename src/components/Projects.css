@@ -33,10 +33,12 @@
 .zen-img {
     background-image: url('/src/assets/images/zen-redesign.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
-.foodspot-img {
-    background-image: url('https://i.imgur.com/nLpwMAk.jpg');
+.jservice-img {
+    background-image: url('/src/assets/images/jservice.png');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 .dashed_line {
     margin: 0 auto;

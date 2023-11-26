@@ -68,20 +68,20 @@ const Projects = () => {
                 <Row>
                     <Col className="col-sm-12 col-lg-7">
                         <div className="project2 project_item">
-                            <h2 className="projectTitle headers">FoodSpot (In-Progress)</h2>
-                            <p className="projectType"> HTML | CSS | TypeScript | React | React-Bootstrap</p>
-                            <div className="projectImg d-lg-none foodspot-img"></div>
-                            <p className="project_Description"> A solo food blog project that is still being designed and built by me. This site was built with a mobile-first design in mind. Future updates will include a backend (Express JS) and a database (PostgreSQL). The website has a base design; functionality will be added shortly.</p>
-                            <a href='https://foodspot-frontend.vercel.app/' target='_blank'>
+                            <h2 className="projectTitle headers">Jeopardy Trivia Game Dupe</h2>
+                            <p className="projectType"> HTML | CSS | React | Bootstrap | Axios</p>
+                            <div className="projectImg d-lg-none jservice-img"></div>
+                            <p className="project_Description"> A solo project built to demonstrate pulling data from a third-party API, inspired by the popular trivia gameshow Jeopardy. Users can keep track of their score and adjust based on the amount of points the question is worth. </p>
+                            <a href='https://jeopardy-dupe-27b12cc3d688.herokuapp.com/' target='_blank'>
                                 <button className="btn showProject">Show App</button>
                             </a>
-                            <a href='https://github.com/rominadouk/foodspot_frontend/tree/main' target='_blank'>
+                            <a href='https://github.com/rominadouk/jeopardy-game' target='_blank'>
                                 <button className="btn showProject showCode">Show Code</button>
                             </a>
                         </div>
                     </Col>
                     <Col className="d-none d-lg-block">
-                        <div className="projectImg mt-lg-3 foodspot-img"></div>
+                        <div className="projectImg mt-lg-3 jservice-img"></div>
                     </Col>
                 </Row>
             </Container>
